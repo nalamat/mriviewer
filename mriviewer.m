@@ -244,6 +244,7 @@ function process_avg(h)
 	img_avg = zeros(91, 109, 91);
 	n = 0;
 	
+	try
 	for i=1:length(h.lstFiles.String)
 		try nii = load_nii([path '/' h.lstFiles.String{i}]);
 		catch continue; end
@@ -257,6 +258,8 @@ function process_avg(h)
 	end
 	
 	img_avg = img_avg / n;
+	catch
+	end
 
 
 function process_img(h)
