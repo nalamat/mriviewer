@@ -1,6 +1,6 @@
 # MRIViwer
 
-An interactive user interface for viewing and analyzing 3D structural magnetic resonance images
+An interactive MATLAB user interface for viewing and analyzing 3D structural magnetic resonance images (MRI)
 
 
 ## Web and contact
